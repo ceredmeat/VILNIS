@@ -1,0 +1,16 @@
+{
+ "id": "vilnis",
+ "version": "0.3",
+ "title": "VILNIS: west coast machine",
+ "category": "Machines",
+ "license": "GPL-2.0-or-later",
+ "author": "Cere, made with Claude",
+ "description": "VILNIS (\"wave\" in Latvian), a west coast SRC machine inspired by Majella Audio's Implexus and Compax and by the Buchla Music Easel: a complex oscillator (a modulation oscillator at a ratio, FM, AM or both) into a sine wavefolder with HARMONICS and BIAS, then a low pass gate with a vactrol-like decay, a pulser that strikes it again and again, a random voltage and a vibrato. Page 2's FOLD and VIB draw the waveform and the gate's level. Machine 36. Needs machine-pages and core 4.4.",
+ "device": "digitakt-mk1",
+ "os": "1.54",
+ "sources": ["vilnis.c"],
+ "machines": [{"id": 36, "descriptor": "vl_machine"}],
+ "subscribe": [{"event": "ev_render_voices", "fn": "vl_render", "order": 20}],
+ "requires": ["core", "machine-pages"],
+ "resources": {"core": "4.4"}
+}
