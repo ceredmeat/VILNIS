@@ -1,4 +1,4 @@
-# VILNIS 0.3 (Digitakt MKI, OS 1.54)
+# VILNIS 0.4 (Digitakt MKI, OS 1.54)
 
 *Vilnis* is Latvian for wave. A west coast machine for the Digitakt MKI, inspired by Majella
 Audio's Implexus and Compax and by the Buchla Music Easel: a complex oscillator (a modulation
@@ -41,7 +41,7 @@ sample.
 
 ## Install
 
-Load `vilnis-0.3.elemod` in Elekloader with **core 4.4** and **machine-pages** (1.11), build your OS
+Load `vilnis-0.4.elemod` in Elekloader with **core 4.4** and **machine-pages** (1.11), build your OS
 and flash it. No `.syx` is shared here: it would contain Elektron's firmware.
 
 ## Notes
@@ -53,3 +53,9 @@ destinations.
 `tables.h` (the sine, the gate's decay times and the pulser's rates) is made by `tools/gen_vilnis.py`.
 
 Licence: GPL-2.0-or-later. By Cere, made with Claude. Not affiliated with Majella Audio or Buchla.
+
+## Changes
+
+| Version | What changed |
+|---|---|
+| 0.4 | The screen code is built smaller, which leaves more RAM for your other mods. The sound is unchanged. |
